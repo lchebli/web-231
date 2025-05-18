@@ -16,8 +16,8 @@ signupForm.addEventListener("submit", function(e) {
    e.preventDefault();
    let pwd = document.getElementById("pwd").value;
    let feedback = document.getElementById("feedback");
-   let regex1 = /[A-Z]/;
-   let regex2 = /[/d]/;
+   let regex1 = [A-Z];
+   let regex2 = [/d];
    let regex3 = /[!\$#%]/;
 
    if (pwd.length < 8) {
